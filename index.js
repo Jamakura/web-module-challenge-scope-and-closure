@@ -100,9 +100,7 @@ function finalScore(inning, number){
 }
 
 console.log(finalScore(inning, 9));
-console.log(finalScore(inning, 9));
-console.log(finalScore(inning, 9));
-console.log(finalScore(inning, 9));
+
 /* Task 4: 
 
 Create a function called `scoreboard` that accepts the following parameters: 
@@ -123,8 +121,7 @@ and returns the score at each pont in the game, like so:
 9th inning: 6 - 10
 
 Final Score: 6 - 10 */
-
-function scoreboard(/* CODE HERE */) {
+function scoreboard(inning, inningNumber ) {
   /* CODE HERE */
 }
 

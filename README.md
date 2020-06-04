@@ -41,8 +41,11 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
-2. Study the following code, then answer the questions below.
+1. In your own words, define closure (1-2 sentences)
+2. 
+3. Closure is a way for a child function to utilize the information from the parent function.
+4. 
+5. Study the following code, then answer the questions below.
 
 ```js
 function personalDice(name){
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+The closure is with the return function. I can tell because it is a function weithin a function within a function that calls on information outsife of itself.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+It will call the name defined by the function personalDice. if the name or string declared is changed in personalDice that would change what is called by the second.
+
 c. What is the lexical scope of `newRoll`? 
+
+it is of a functional scope and can only be used within the function.
 
 ### Task 3 - Stretch Goals
 
